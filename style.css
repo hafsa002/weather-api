@@ -7,8 +7,9 @@
 
 main {
     width: 100%;
-    height: 100vh;
-    background-color: #3498db;
+    height: 500px;
+    background: url("weather.png");
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,10 +22,10 @@ main {
     /* vertically */
     justify-content: center;
     /* horizontally */
-    width: 1000px;
+    width: 500px;
     margin: 10px;
     font-size: 20px;
-    color: white;
+    color: blue;
 }
 
 #search {
@@ -34,4 +35,13 @@ main {
     border: none;
     outline: none;
     box-shadow: 0px 0px 5px grey;
+    
+}
+
+.container{
+    background-color:skyblue;
+    height: 200px;
+    padding: 20px;
+    opacity: .8;
+    border-radius: 20px;
 }
